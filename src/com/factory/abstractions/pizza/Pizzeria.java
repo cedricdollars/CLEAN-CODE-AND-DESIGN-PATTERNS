@@ -1,4 +1,6 @@
-package com.factory;
+package com.factory.abstractions.pizza;
+
+import com.factory.abstractions.pizza.Pizza;
 
 public abstract class Pizzeria {
 
@@ -12,5 +14,5 @@ public abstract class Pizzeria {
         return pizza;
     }
 
-     abstract Pizza creerPizza(String type);
+     protected abstract Pizza creerPizza(String type);
 }

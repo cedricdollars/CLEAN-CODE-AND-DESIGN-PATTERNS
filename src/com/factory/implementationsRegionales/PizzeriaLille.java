@@ -1,6 +1,9 @@
-package com.factory;
+package com.factory.implementationsRegionales;
 
-public class PizzeriaLille extends Pizzeria{
+import com.factory.abstractions.pizza.Pizza;
+import com.factory.abstractions.pizza.Pizzeria;
+
+public class PizzeriaLille extends Pizzeria {
 
     @Override
     public Pizza creerPizza(String type) {
