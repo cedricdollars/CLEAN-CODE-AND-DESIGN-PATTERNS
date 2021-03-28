@@ -4,7 +4,6 @@ import java.util.UUID;
 
 public class CoffeeMaker {
     private boolean estPlein;
-
     private volatile static CoffeeMaker instance;
     private CoffeeMaker() {
         estPlein = false;
